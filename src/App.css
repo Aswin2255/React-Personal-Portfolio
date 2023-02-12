@@ -5,6 +5,9 @@
    
 
 }
+a{
+    color: black;
+}
 
 .navbar{
     display: flex;
@@ -207,6 +210,7 @@ li{
     padding: .5rem;
     border: none;
     color: white;
+    cursor: pointer;
 }
 .source-code{
     display: flex;
@@ -214,22 +218,38 @@ li{
 }
 .contact{
     background-color: wheat;
-
+    height: 70vh;
+}
+.contact-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact-links{
+    margin: 1rem;
 }
 .form{
     margin: 1rem;
-    
 }
-input{
+.form-input{
+    margin: 1rem;
+}
+.email,.phone,.addres{
+    margin: 1rem;
+}
+label{
+    margin: .5rem;
+}
+input,textarea{
     width: 100%;
+    padding: .5rem;
+    border: none;
+    border-radius: 10%;
 }
-textarea{
-    width: 100%;
+.form-input{
+    display: flex;
 }
+
 
 
 @keyframes slideleft{
@@ -252,9 +272,7 @@ textarea{
         display: flex;
         
     }
-    .form{
-        width: 100%;
-    }
+   
     .navbar{
         flex-direction: column;
         align-items: flex-start;
