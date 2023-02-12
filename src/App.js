@@ -112,7 +112,7 @@ function App() {
        animate={control} className='about-content'>
       <div className='image'>
         <div className='img-container'>
-        <img className='img' src='/aswin.jpg' alt=''></img>
+        <img className='img' src='./aswin.jpg' alt=''></img>
         
         </div>
         
